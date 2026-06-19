@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>
+		LECTURE 22 -  INPUT ARRANGEMENT
+	</title>
+	<style>
+		label{
+			width:100px;
+			display:inline-block;
+			margin-left:1cm;
+		}
+		input{
+			margin-top: 10px;
+			border-color: green;
+		}
+		fieldset{
+			background-color: darkblue;
+			color:white;
+		}
+		#sub{
+			width: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<br>
+	ID -> #
+	<br>
+	NAME -> .
+	<br>
+	<fieldset>
+	<form>
+		<label>Name:</label><input type="text" required>
+		<br>
+		<br>
+		<label>Father's Name:</label><input type="text" required>	
+		<br>
+		<br>
+		<label>Gender</label> <input type="radio" name="gender" checked>Male
+				<input type="radio" name="gender">Female
+				<input type="radio" name="gender">Other
+		<br>
+		<br>
+		<label>Email</label><input type="email" required>
+		<br>
+		<br>
+		<input type="submit" id="sub" value="LogIn">
+	</form>
+	</fieldset>
+</body>
+
+</html>
