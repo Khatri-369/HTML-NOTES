@@ -1,0 +1,22 @@
+.heading{
+    background-color: darkgreen;
+    color: white;
+    size: 30px;
+    font-size:20px;
+}
+
+.days{
+    background-color: yellow;
+}
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.lunch{
+    font-weight: bold;
+}
